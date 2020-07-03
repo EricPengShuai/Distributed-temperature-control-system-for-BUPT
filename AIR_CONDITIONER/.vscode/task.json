@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "python3",
+            "type": "shell",
+            "command": "/usr/local/bin/python3",
+            "args": ["${file}"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
