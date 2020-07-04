@@ -11,7 +11,8 @@
 
 ## 前端运行方式
 
-安装完依赖后，运行工程文件夹下的`run.sh`即可运行。
+安装完依赖后，进入`AIR_CONDITIONER/front_end`，npm run serve即可
+
 ![front_end-npm-run-serve](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/npm-run-%20serve.png)
 
 随后点击其中一个URL即可访问本分布式空调管理系统的界面
@@ -20,10 +21,12 @@
 
 ### 数据库版本
 >`mysql 8.0.19 Homebrew`
+
 ![mysql-version](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/mysql-version.png)
 
 ### 数据库建库脚本文件
 >`mysqlTable.py`已集成到代码中。
+
 ![mysql-table-code](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/code.png)
 
 
