@@ -1,7 +1,4 @@
-# Distributed-temperature-control-system-for-BUPT
-[大三软工作业--前端Vue--后端python_flask](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT)
-
-# 工程说明文件
+# Distributed-temperature-control-system-for-BUPT 工程说明文件
 
 ## 开发语言
 基于`python3.8`以及`JavaScript`开发
@@ -9,7 +6,10 @@
 ## 框架选择
 前端`JavaScript-Vue`，后端`python-flask`
 
-## 前端运行方式
+## 运行方式
+具体可以参考`AIR_CONDITIONER`文件夹中的`run.sh`脚本
+
+### 前端运行说明
 
 安装完依赖后，进入`AIR_CONDITIONER/front_end`，npm run serve即可
 
@@ -17,14 +17,14 @@
 
 随后点击其中一个URL即可访问本分布式空调管理系统的界面
 
-## 后端运行说明
+### 后端运行说明
 
-### 数据库版本
+#### 数据库版本
 >`mysql 8.0.19 Homebrew`
 
 ![mysql-version](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/mysql-version.png)
 
-### 数据库建库脚本文件
+#### 数据库建库脚本文件
 >`mysqlTable.py`已集成到代码中。
 
 ![mysql-table-code](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/code.png)
