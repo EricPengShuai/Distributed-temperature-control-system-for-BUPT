@@ -3,19 +3,31 @@
 
 # 工程说明文件
 
-## 运行方式
+## 开发语言
+基于`python3.8`以及`JavaScript`开发
 
-安装完依赖后，运行工程文件夹下的`run.sh`即可运行。![截屏2020-06-1422.51.26](README.assets/截屏2020-06-1422.51.26.png)
+## 框架选择
+前端`JavaScript-Vue`，后端`python-flask`
+
+## 前端运行方式
+
+安装完依赖后，运行工程文件夹下的`run.sh`即可运行。
+![front_end-npm-run-serve](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/npm-run-%20serve.png)
 
 随后点击其中一个URL即可访问本分布式空调管理系统的界面
 
-## 数据库建库脚本文件
+## 后端运行说明
 
-`mysqlTable.py`已集成到代码中。
+### 数据库版本
+>`mysql 8.0.19 Homebrew`
+![mysql-version](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/mysql-version.png)
 
-![截屏2020-06-1422.52.23](README.assets/截屏2020-06-1422.52.23.png)
+### 数据库建库脚本文件
+>`mysqlTable.py`已集成到代码中。
+![mysql-table-code](https://github.com/pengshuai98/Distributed-temperature-control-system-for-BUPT/blob/master/README.assets/code.png)
 
-## 依赖
+
+## 环境说明
 
 ### 后端依赖
 
